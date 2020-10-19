@@ -18,7 +18,6 @@
 		514154062538544200E01030 /* Machine_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514154052538544200E01030 /* Machine_GalleryTests.swift */; };
 		514154112538544200E01030 /* Machine_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514154102538544200E01030 /* Machine_GalleryUITests.swift */; };
 		5141541F2538566100E01030 /* ShowFullImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5141541E2538566100E01030 /* ShowFullImage.swift */; };
-		514154212538578900E01030 /* CostumClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514154202538578900E01030 /* CostumClass.swift */; };
 		514154232538776D00E01030 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 514154222538776D00E01030 /* image.jpeg */; };
 		516BA105253AE66E00BF30F5 /* ScanQRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516BA103253AE66E00BF30F5 /* ScanQRVC.swift */; };
 		516BA106253AE66E00BF30F5 /* ScanQRVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 516BA104253AE66E00BF30F5 /* ScanQRVC.xib */; };
@@ -79,7 +78,6 @@
 		514154102538544200E01030 /* Machine_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_GalleryUITests.swift; sourceTree = "<group>"; };
 		514154122538544200E01030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5141541E2538566100E01030 /* ShowFullImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFullImage.swift; sourceTree = "<group>"; };
-		514154202538578900E01030 /* CostumClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumClass.swift; sourceTree = "<group>"; };
 		514154222538776D00E01030 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpeg; path = "../../../Downloads/ilovepdf_extracted-pages/image.jpeg"; sourceTree = "<group>"; };
 		516BA103253AE66E00BF30F5 /* ScanQRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRVC.swift; sourceTree = "<group>"; };
 		516BA104253AE66E00BF30F5 /* ScanQRVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanQRVC.xib; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 				514153FC2538544200E01030 /* Info.plist */,
 				514153F42538543F00E01030 /* Machine_Gallery.xcdatamodeld */,
 				5141541E2538566100E01030 /* ShowFullImage.swift */,
-				514154202538578900E01030 /* CostumClass.swift */,
 				516BA103253AE66E00BF30F5 /* ScanQRVC.swift */,
 				516BA104253AE66E00BF30F5 /* ScanQRVC.xib */,
 			);
@@ -544,7 +541,6 @@
 				51F8D3702539F09400F49736 /* MachineService.swift in Sources */,
 				519E987A2539996400F82C01 /* MachineListVC.swift in Sources */,
 				51F8D36E2539EF0000F49736 /* MachineRepository.swift in Sources */,
-				514154212538578900E01030 /* CostumClass.swift in Sources */,
 				514153F02538543F00E01030 /* ViewController.swift in Sources */,
 				51BDBB0B253AC82200A13091 /* MachineDetailVC.swift in Sources */,
 				519E987C2539A8FA00F82C01 /* AddMachineVC.swift in Sources */,
