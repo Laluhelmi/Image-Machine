@@ -12,4 +12,4 @@ Code reader menu to read qrcode data genereated by machine and show the detail o
 * Edit the machine data and also can unlike or delete the images from the data.
 * Delete machine data.
 * Scan qrcode and show the machine data detail if it found on the app database.
-* Show larger image version.
+* Show the larger version of the image.
