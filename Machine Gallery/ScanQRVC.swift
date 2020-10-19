@@ -21,7 +21,6 @@ class ScanQRVC: UIViewController ,AVCaptureMetadataOutputObjectsDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        view.backgroundColor = UIColor.black
         captureSession = AVCaptureSession()
 
         guard let videoCaptureDevice = AVCaptureDevice.default(for: .video) else { return }
@@ -110,6 +109,7 @@ class ScanQRVC: UIViewController ,AVCaptureMetadataOutputObjectsDelegate{
             self.navigationController?.pushViewController(controller, animated: true)
         }
         else {
+            self.showMessage(title: "Not Found", message: "QrCode Not Found")
             self.navigationController?.popViewController(animated: true)
         }
     }
@@ -117,5 +117,13 @@ class ScanQRVC: UIViewController ,AVCaptureMetadataOutputObjectsDelegate{
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
+    
+    func showMessage(title: String,message: String){
+           let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+           
+           alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+           
+           self.present(alert, animated: true, completion: nil)
+       }
 
 }

@@ -19,13 +19,15 @@ class MachineListVC: UIViewController {
     let viewModel = MachineListVM(service: MachineServiceImpl())
     
     let rowHeight = CGFloat(50.0)
+    let selectedAlphaIndicator   = CGFloat(0.4)
+    let unselectedAlphaIndicator = CGFloat(1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initControllerButton()
         self.initTableView()
         //sort by name selected
-        self.sortByNameButton.alpha = 0.2
+        self.sortByNameButton.alpha = selectedAlphaIndicator
     }
     
     deinit {
@@ -84,14 +86,14 @@ class MachineListVC: UIViewController {
     @IBAction func sortByType(_ sender: Any) {
         
         self.viewModel.sortyBy = .type
-        self.sortByNameButton.alpha = 1.0
-        self.sortByTypeButton.alpha = 0.2
+        self.sortByNameButton.alpha = unselectedAlphaIndicator
+        self.sortByTypeButton.alpha = selectedAlphaIndicator
     }
     @IBAction func sortByName(_ sender: Any) {
         
         self.viewModel.sortyBy = .name
-        self.sortByNameButton.alpha = 0.2
-        self.sortByTypeButton.alpha = 1.0
+        self.sortByNameButton.alpha = selectedAlphaIndicator
+        self.sortByTypeButton.alpha = unselectedAlphaIndicator
     }
     
     @objc func addMachineData(){
