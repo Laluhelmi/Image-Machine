@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Machine Gallery-Machine GalleryUITests/Pods-Machine Gallery-Machine GalleryUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/OpalImagePicker/OpalImagePicker.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework

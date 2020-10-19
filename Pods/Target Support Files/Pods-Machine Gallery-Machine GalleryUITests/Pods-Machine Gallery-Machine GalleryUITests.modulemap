@@ -1,0 +1,6 @@
+framework module Pods_Machine_Gallery_Machine_GalleryUITests {
+  umbrella header "Pods-Machine Gallery-Machine GalleryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
